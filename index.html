@@ -1,1 +1,169 @@
-index.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Assistente Signa (GPT-3.5 Turbo)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+    }
+
+    header {
+      background-color: #1e2a38;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    #chat {
+      flex: 1;
+      padding: 1rem;
+      overflow-y: auto;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .msg {
+      margin: 0.5rem 0;
+      padding: 0.75rem;
+      border-radius: 8px;
+      max-width: 80%;
+      line-height: 1.5;
+      white-space: pre-wrap;
+    }
+
+    .user {
+      background-color: #d1e7dd;
+      align-self: flex-end;
+    }
+
+    .bot {
+      background-color: #e2e3e5;
+      align-self: flex-start;
+    }
+
+    #input-area {
+      display: flex;
+      padding: 1rem;
+      background-color: #f9f9f9;
+      border-top: 1px solid #ccc;
+    }
+
+    #input {
+      flex: 1;
+      padding: 0.75rem;
+      font-size: 1rem;
+    }
+
+    button {
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      background-color: #1e2a38;
+      color: #fff;
+      border: none;
+      margin-left: 0.5rem;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0f1b2a;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🤖 Assistente Virtual da Signa</header>
+
+  <div id="chat"></div>
+
+  <div id="input-area">
+    <input id="input" type="text" placeholder="Digite sua pergunta..." />
+    <button onclick="enviarMensagem()">Enviar</button>
+  </div>
+
+  <script>
+    const chat = document.getElementById('chat');
+    const input = document.getElementById('input');
+
+    const apiKey = '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'; // 🔒 SUBSTITUA POR SUA CHAVE PESSOAL (NÃO PUBLIQUE)
+
+    const mensagens = [
+      {
+        role: "system",
+        content: `Você é um assistente virtual da empresa Signa, uma empresa portuguesa especializada em segurança eletrónica. 
+Seu papel é responder dúvidas sobre a Signa e seus serviços de forma clara, profissional e acessível, utilizando sempre as informações oficiais da empresa.
+
+TOM DE VOZ:
+- Profissional, cordial e confiável.
+
+PERSONALIDADE:
+- Especialista em soluções integradas de segurança.
+
+BASE DE CONHECIMENTO:
+- Serviços: videovigilância (CCTV), controlo de acessos, deteção de intrusão/incêndio, integração de sistemas e consultoria.
+- Setores: banca, retalho, saúde, logística, indústria e organismos públicos.
+- Contato: signa@signa.pt | +351 214 127 780
+- Endereço: Rua António Correia, 15B - 2790-049 Carnaxide, Portugal.
+`
+      }
+    ];
+
+    function adicionarMensagem(texto, classe) {
+      const msg = document.createElement('div');
+      msg.className = `msg ${classe}`;
+      msg.textContent = texto;
+      chat.appendChild(msg);
+      chat.scrollTop = chat.scrollHeight;
+    }
+
+    async function enviarMensagem() {
+      const pergunta = input.value.trim();
+      if (!pergunta) return;
+
+      adicionarMensagem(pergunta, 'user');
+      mensagens.push({ role: "user", content: pergunta });
+      input.value = '';
+
+      try {
+        const resposta = await fetch("https://api.openai.com/v1/chat/completions", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${apiKey}`
+          },
+          body: JSON.stringify({
+            model: "gpt-3.5-turbo",
+            messages: mensagens,
+            temperature: 0.7,
+            max_tokens: 500
+          })
+        });
+
+        const data = await resposta.json();
+        const mensagemBot = data.choices?.[0]?.message?.content;
+        if (mensagemBot) {
+          mensagens.push({ role: "assistant", content: mensagemBot });
+          adicionarMensagem(mensagemBot, 'bot');
+        } else {
+          adicionarMensagem('❌ Não foi possível gerar uma resposta.', 'bot');
+        }
+      } catch (err) {
+        adicionarMensagem('❌ Erro ao conectar com a API.', 'bot');
+        console.error(err);
+      }
+    }
+
+    input.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") enviarMensagem();
+    });
+  </script>
+
+</body>
+</html>
