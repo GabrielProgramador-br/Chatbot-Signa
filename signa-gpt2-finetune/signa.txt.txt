@@ -1,0 +1,242 @@
+[
+  {
+    "pergunta": "O que é a Signa?",
+    "resposta": "A Signa é uma empresa portuguesa especializada na concepção, instalação e manutenção de soluções integradas de segurança eletrónica e tecnológica.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "Quais serviços a Signa oferece?",
+    "resposta": "A Signa oferece serviços como consultoria, projeto e implementação de sistemas integrados de segurança eletrónica, incluindo videovigilância (CCTV), controlo de acessos, deteção de intrusão, deteção de incêndio e soluções integradas personalizadas.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "Quais tipos de sistemas integrados a Signa implementa?",
+    "resposta": "A Signa implementa sistemas como CCTV (videovigilância), deteção de intrusão, deteção de incêndio, controlo de acessos e intercomunicação, de forma integrada e personalizada conforme as necessidades do cliente.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "A Signa oferece serviços de consultoria?",
+    "resposta": "Sim. A Signa presta consultoria especializada para análise de risco, definição de requisitos técnicos e escolha das melhores soluções de segurança adaptadas ao contexto de cada cliente.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "A Signa realiza manutenção dos sistemas?",
+    "resposta": "Sim. A empresa oferece manutenção preventiva e corretiva dos sistemas instalados, com planos de suporte técnico adequados às necessidades de cada projeto.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "Quem são os clientes da Signa?",
+    "resposta": "A Signa atua em diversos setores como banca, retalho, indústria, saúde, logística e instituições públicas, com soluções ajustadas para diferentes exigências.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "Como posso entrar em contato com a Signa?",
+    "resposta": "Você pode entrar em contato através do e-mail signa@signa.pt ou pelo telefone +351 214 127 780.",
+    "fonte": "https://www.signa.pt/contactos/"
+  },
+  {
+    "pergunta": "Onde a Signa está localizada?",
+    "resposta": "A sede da Signa está localizada em Carnaxide, Portugal: Rua António Correia, 15B - 2790-049 Carnaxide.",
+    "fonte": "https://www.signa.pt/contactos/"
+  },
+  {
+    "pergunta": "O que é a Signa?",
+    "resposta": "A Signa é uma empresa portuguesa especializada em segurança eletrónica. Atua na concepção, instalação e manutenção de soluções tecnológicas integradas para proteger pessoas, património e informação.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "Quais são os valores da Signa?",
+    "resposta": "A Signa tem como pilares a inovação, confiança, compromisso com o cliente e a excelência na entrega de soluções de segurança sob medida.",
+    "fonte": "https://www.signa.pt/quem-somos/"
+  },
+  {
+    "pergunta": "Quais setores a Signa atende?",
+    "resposta": "A Signa presta serviços para os setores de banca, saúde, retalho, logística, indústria e organismos públicos.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "Quais serviços a Signa oferece?",
+    "resposta": "A Signa oferece consultoria técnica, desenvolvimento de projeto, instalação de sistemas, integração de tecnologias e serviços de manutenção preventiva e corretiva.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "Quais sistemas de segurança a Signa implementa?",
+    "resposta": "A Signa trabalha com sistemas de videovigilância (CCTV), deteção de intrusão, deteção de incêndio, controlo de acessos, intercomunicação e soluções integradas.",
+    "fonte": "https://www.signa.pt/solucoes-de-seguranca/"
+  },
+  {
+    "pergunta": "O que é uma solução integrada de segurança?",
+    "resposta": "É a integração de diferentes sistemas (como CCTV, alarme, controlo de acessos) num único ambiente de gestão, proporcionando mais eficiência, automatização e segurança.",
+    "fonte": "https://www.signa.pt/sistemas-integrados/"
+  },
+  {
+    "pergunta": "Como funciona a consultoria da Signa?",
+    "resposta": "A Signa realiza análise de risco, levantamento de necessidades, e propõe soluções técnicas de segurança adaptadas ao ambiente do cliente.",
+    "fonte": "https://www.signa.pt/consultoria-e-projetos/"
+  },
+  {
+    "pergunta": "Quais soluções de controlo de acessos são oferecidas?",
+    "resposta": "A Signa fornece soluções de controlo de acessos para pessoas e veículos, com autenticação por cartões, biometria ou credenciais digitais.",
+    "fonte": "https://www.signa.pt/solucoes-de-seguranca/"
+  },
+  {
+    "pergunta": "A Signa instala câmaras de segurança (CCTV)?",
+    "resposta": "Sim. A Signa instala sistemas de videovigilância com gravação local ou remota, gestão por software e integração com outros sistemas.",
+    "fonte": "https://www.signa.pt/solucoes-de-seguranca/"
+  },
+  {
+    "pergunta": "A Signa oferece manutenção técnica?",
+    "resposta": "Sim. A manutenção pode ser preventiva ou corretiva, com planos de suporte personalizados e assistência técnica permanente.",
+    "fonte": "https://www.signa.pt/manutencao-e-suporte/"
+  },
+  {
+    "pergunta": "A Signa desenvolve projetos personalizados?",
+    "resposta": "Sim. A Signa adapta soluções técnicas às necessidades específicas de cada cliente, realizando projeto técnico detalhado e execução completa.",
+    "fonte": "https://www.signa.pt/consultoria-e-projetos/"
+  },
+  {
+    "pergunta": "A Signa atua em projetos de grande porte?",
+    "resposta": "Sim. A empresa já implementou soluções integradas em hospitais, bancos, cadeias de retalho, centros logísticos e instituições públicas.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "Posso contratar apenas a manutenção da Signa, sem instalar o sistema com eles?",
+    "resposta": "Sim. A Signa pode assumir a manutenção de sistemas já existentes, mesmo que tenham sido instalados por outras empresas.",
+    "fonte": "https://www.signa.pt/manutencao-e-suporte/"
+  },
+  {
+    "pergunta": "A Signa faz integração com sistemas de incêndio?",
+    "resposta": "Sim. A empresa integra sistemas de alarme de incêndio com demais sistemas de segurança para respostas automáticas e gestão centralizada.",
+    "fonte": "https://www.signa.pt/sistemas-integrados/"
+  },
+  {
+    "pergunta": "Qual é o diferencial da Signa?",
+    "resposta": "A Signa se destaca pela abordagem consultiva, uso de tecnologia de ponta, integração de sistemas e atendimento personalizado ao cliente.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "A Signa realiza formação ou treinamento?",
+    "resposta": "Sim. A empresa orienta os utilizadores sobre o funcionamento dos sistemas instalados, garantindo uso correto e seguro das tecnologias.",
+    "fonte": "https://www.signa.pt/manutencao-e-suporte/"
+  },
+  {
+    "pergunta": "A Signa faz orçamentos gratuitos?",
+    "resposta": "O site informa que é possível solicitar orçamento ou contacto através do formulário da página de 'Contactos'.",
+    "fonte": "https://www.signa.pt/contactos/"
+  },
+  {
+    "pergunta": "Como posso entrar em contato com a Signa?",
+    "resposta": "Através do telefone +351 214 127 780 ou e-mail signa@signa.pt. Também é possível usar o formulário do site.",
+    "fonte": "https://www.signa.pt/contactos/"
+  },
+  {
+    "pergunta": "Qual é o endereço da Signa?",
+    "resposta": "Rua António Correia, 15B - 2790-049 Carnaxide, Portugal.",
+    "fonte": "https://www.signa.pt/contactos/"
+  },
+  {
+    "pergunta": "A Signa atua apenas em Portugal?",
+    "resposta": "O site não especifica atuação fora de Portugal, portanto presume-se que a operação principal é nacional.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "Quais marcas de equipamentos a Signa utiliza?",
+    "resposta": "A Signa trabalha com fabricantes reconhecidos internacionalmente, oferecendo equipamentos certificados e compatíveis com normas de segurança eletrónica.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "A Signa realiza vistorias técnicas?",
+    "resposta": "Sim. A Signa pode realizar vistorias técnicas no local para avaliar o ambiente e indicar as soluções mais adequadas de segurança.",
+    "fonte": "https://www.signa.pt/consultoria-e-projetos/"
+  },
+  {
+    "pergunta": "O que é segurança eletrónica?",
+    "resposta": "Segurança eletrónica é o conjunto de tecnologias e sistemas que protegem pessoas, bens e informações por meio de equipamentos como alarmes, câmaras, sensores e sistemas de acesso.",
+    "fonte": "https://www.signa.pt/solucoes-de-seguranca/"
+  },
+  {
+    "pergunta": "A Signa oferece sistemas de alarme para residências?",
+    "resposta": "Embora o foco seja soluções corporativas e institucionais, a Signa pode desenvolver projetos sob medida para diferentes tipos de cliente, conforme o escopo.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "A Signa possui certificações?",
+    "resposta": "A empresa destaca o compromisso com a qualidade e a conformidade normativa, embora as certificações específicas não sejam listadas no site.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "Quais são os benefícios de contratar a Signa?",
+    "resposta": "A Signa oferece soluções integradas, atendimento consultivo, suporte técnico contínuo e ampla experiência em projetos complexos de segurança.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "A Signa trabalha com reconhecimento facial?",
+    "resposta": "Sim. A Signa pode integrar sistemas de reconhecimento facial a soluções de controlo de acessos, conforme o projeto.",
+    "fonte": "https://www.signa.pt/solucoes-de-seguranca/"
+  },
+  {
+    "pergunta": "Qual é a experiência da Signa no mercado?",
+    "resposta": "A Signa atua há mais de 20 anos no mercado de segurança eletrónica, com histórico de projetos realizados em clientes de grande porte.",
+    "fonte": "https://www.signa.pt/quem-somos/"
+  },
+  {
+    "pergunta": "A Signa oferece soluções escaláveis?",
+    "resposta": "Sim. As soluções são desenhadas de forma modular e escalável, podendo crescer conforme a necessidade do cliente.",
+    "fonte": "https://www.signa.pt/sistemas-integrados/"
+  },
+  {
+    "pergunta": "É possível integrar os sistemas da Signa com outras plataformas?",
+    "resposta": "Sim. A Signa trabalha com integração de sistemas via protocolos padrão ou APIs, conforme a necessidade do projeto.",
+    "fonte": "https://www.signa.pt/sistemas-integrados/"
+  },
+  {
+    "pergunta": "A Signa realiza auditoria de segurança?",
+    "resposta": "Sim. A consultoria da Signa pode incluir auditorias técnicas para identificar vulnerabilidades e propor melhorias.",
+    "fonte": "https://www.signa.pt/consultoria-e-projetos/"
+  },
+  {
+    "pergunta": "Qual é o processo de implementação da Signa?",
+    "resposta": "O processo passa por diagnóstico técnico, proposta de solução, projeto detalhado, instalação, testes e manutenção pós-entrega.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "Quais diferenciais a Signa oferece em relação a outras empresas?",
+    "resposta": "Diferenciais como atendimento consultivo, integração de múltiplas tecnologias, suporte técnico dedicado e experiência em diversos setores.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "Quais tecnologias modernas a Signa utiliza?",
+    "resposta": "A Signa utiliza tecnologias de inteligência artificial, análise de vídeo, sensores inteligentes e software de monitoramento em tempo real.",
+    "fonte": "https://www.signa.pt/solucoes-de-seguranca/"
+  },
+  {
+    "pergunta": "Como solicitar um orçamento na Signa?",
+    "resposta": "Você pode preencher o formulário de contacto no site ou enviar um e-mail para signa@signa.pt solicitando um orçamento personalizado.",
+    "fonte": "https://www.signa.pt/contactos/"
+  },
+  {
+    "pergunta": "A Signa oferece suporte 24 horas?",
+    "resposta": "O site informa que a Signa oferece suporte técnico contínuo, mas recomenda-se confirmar com o atendimento sobre disponibilidade 24/7.",
+    "fonte": "https://www.signa.pt/manutencao-e-suporte/"
+  },
+  {
+    "pergunta": "Quais empresas já contrataram a Signa?",
+    "resposta": "O site não lista nomes específicos de clientes, mas menciona setores como banca, saúde, retalho e logística.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "A Signa fornece equipamentos ou apenas instala?",
+    "resposta": "A Signa fornece, instala e integra os equipamentos de segurança, garantindo compatibilidade e eficiência dos sistemas.",
+    "fonte": "https://www.signa.pt/solucoes-de-seguranca/"
+  },
+  {
+    "pergunta": "A Signa vende equipamentos separadamente?",
+    "resposta": "A abordagem da Signa é consultiva e orientada a projetos. A venda de equipamentos geralmente está atrelada a uma solução completa.",
+    "fonte": "https://www.signa.pt/"
+  },
+  {
+    "pergunta": "Posso visitar a Signa presencialmente?",
+    "resposta": "Sim. A sede da Signa está localizada em Carnaxide, Portugal, e o atendimento pode ser agendado previamente via telefone ou e-mail.",
+    "fonte": "https://www.signa.pt/contactos/"
+  }
+]
