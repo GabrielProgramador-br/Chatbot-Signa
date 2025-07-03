@@ -31,7 +31,7 @@ Três abordagens foram implementadas para cobrir diferentes cenários técnicos:
 | 🔹 Interface Web (GitHub Pages) | https://gabrielprogramador-br.github.io/Chatbot-Signa/ |
 | 🔹 API GPT-3.5 Turbo | `POST /perguntar` → [API_gpt.py](./gpt-3.5-turbo/API_gpt.py) |
 | 🔹 API GPT-2 Finetunado | `POST /gerar` → [API_gpt2_finetune.py](./signa-gpt2-finetune/API_gpt2_finetune.py) |
-| 🔹 API com Embeddings | `POST /ask` → incluído em [API_embeddings_similaridade.py](./embeddings-e- similaridade/API_embeddings_similaridade.py) |
+| 🔹 API com Embeddings | `POST /ask` → incluído em [API_embeddings_similaridade.py](./embeddings-e-similaridade/API_embeddings_similaridade.py) |
 
 ---
 
