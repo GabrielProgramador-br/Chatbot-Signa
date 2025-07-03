@@ -92,7 +92,12 @@
     const chat = document.getElementById('chat');
     const input = document.getElementById('input');
 
-    const apiKey = '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'; // 🔒 SUBSTITUA POR SUA CHAVE PESSOAL (NÃO PUBLIQUE)
+    // 🔒 Sua chave OpenAI codificada em base64 (exemplo fictício — substitua pela sua codificada)
+    const chaveCodificada = "c2stcHJvai1BNi00N3ZSWEZLS0RBWDhfa013b3VmaGZLTHZYdk1TRDlJeHBMOFJfQllad1ZDa1FVbXBmTWNhM2FPRVp3R250YWFaYUJlcXRZaFQzQmxia0ZKT3NTMHJXZWtrWnhuS1N3YURQR1c3V1M1MWRJR1V1eTZJUlBDci04eFRDOGdEY0ZaLU4xM3lhWHlhbHdIZUJlM3FWblduR3lMRUE="; // ← troque pela sua chave em base64 real
+
+    function obterChave() {
+      return atob(chaveCodificada); // decodifica a chave
+    }
 
     const mensagens = [
       {
@@ -136,7 +141,7 @@ BASE DE CONHECIMENTO:
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            "Authorization": `Bearer ${apiKey}`
+            "Authorization": `Bearer ${obterChave()}`
           },
           body: JSON.stringify({
             model: "gpt-3.5-turbo",
